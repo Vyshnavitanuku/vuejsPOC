@@ -32,7 +32,7 @@ export default {
     },
     login() {
       if (this.validateLoginFields()) {
-	  debugger
+	  
         this.$store
           .dispatch("validateUser", this.loginDetails)
           .then(data => {
