@@ -1,0 +1,5 @@
+export default {
+    Reports:'Reports*',
+    Settings: 'Settings*',
+    Employee: 'Employee*',
+}

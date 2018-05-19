@@ -1,0 +1,9 @@
+
+@import './login/login.scss';
+@import './masterPage/masterpage.scss';
+
+.control-label:after {
+  content: "*";
+  color: red;
+  font-size: 18px;
+}
